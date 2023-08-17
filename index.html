@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hàm</title>
+</head>
+<body>
+<script>
+    // // function showHello(){
+    // //     let Hello = " chao ban";
+    // //     alert(Hello);
+    // // }
+    // // // showHello();
+    // // function sayHi(){
+    // //     showHello();
+    // //     alert("hi cau")
+    // }
+    // // sayHi();
+
+    // function show(x){ // x là tham số truyền vào: là 1 biến được khai báo khi tạo hàm để đại diện "
+    //     let ketQua = x * x;
+    //     alert(ketQua);
+    //
+    // }
+    // show(5); // 5: là đối số (Giá trị thực đưa vào hàm)
+    // show(10);
+    // show(15);
+    // show(20);
+
+    // function getF(x){
+    //     let ketQua = x * x;
+    //     return ketQua;
+    // }
+    // let kq = getF(5)
+    // console.log(kq);
+
+
+    // function showHello(){
+    //     alert("Hello");
+    // }
+    // showHello()
+//Bài 2
+//     function showSum(a , b){
+//         let Sum = a + b;
+//         alert(Sum)
+//     }
+//     showSum(5 , 10);
+
+// Bài 3
+//     function getSum (a, b){
+//         let Sum = a + b;
+//         return Sum;
+//     }
+//     let kq =  getSum(5, 10)
+//     alert(kq)
+
+    /*
+    let: Không thể khai báo lại
+    var: Có thể khái báo lại
+
+    var: Có thể sử dụng trước khi khai báo
+    let: Không thể
+
+    var:
+    let:
+
+    const: Giống let .nhưng không thể gán lại giá trị
+     */
+
+    function func1(a){
+        if(a == 2)
+            return 2;
+        return a * func1(a - 1);
+    }   func1(5)
+    alert(func1)
+</script>
+</body>
+</html>
